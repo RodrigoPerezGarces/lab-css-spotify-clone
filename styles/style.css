@@ -1,8 +1,77 @@
-/*
-Colors:
+
+/* Colors:
 
 Text: 1A1A1A
 Green: #00B172
-White: #FFF
+White: #FFF */
 
-*/
+
+.navbar {
+    display: flex;
+}
+
+.navlogo{
+    width: 30%;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding:30px;
+}
+
+nav ul{
+   display: flex;
+   list-style: none;
+   flex-direction: row;
+   margin-top:40px;
+   margin-bottom: 0px;
+   /* margin: 40px 50px; */
+   font-size: 1.5em;
+   padding: 30px;
+}
+
+nav ul li {
+    margin-left: 15px;
+    padding:15px;
+    font-size: 1.5em;
+
+}
+
+.landing{
+    background-image: url('../images/landing.jpg');
+    height:2000px;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.landing h1,
+p{
+    color:white;
+    font-size: 4em;
+    align-items: center;
+
+}
+
+h1{
+    padding-top: 700px;
+}
+
+.features h2{
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+
+.featureLogo{
+    display: flex;
+    flex-direction: row;
+}
+
+.features img{
+    width: 100px;
+    height: 100px;
+    margin-left: 200px;
+}
+
+.featureLogo h2{
+    color: rgb(10, 191, 10);
+}
