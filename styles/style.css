@@ -44,7 +44,7 @@ nav ul li {
 }
 
 .landing h1,
-p{
+ h5{
     color:white;
     font-size: 4em;
     align-items: center;
@@ -59,19 +59,70 @@ h1{
     display: block;
     text-align: center;
     align-items: center;
+    text-decoration: underline;
+    text-decoration-color: #00b172;
 }
 
 .featureLogo{
     display: flex;
-    flex-direction: row;
+}
+
+.main-flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.features main{
+    text-align:center;
 }
 
 .features img{
     width: 100px;
     height: 100px;
-    margin-left: 200px;
+    /* margin-left: 150px; */
 }
 
-.featureLogo h2{
+.featureLogo h3{
     color: rgb(10, 191, 10);
+    /* margin-left: 150px; */
+}
+
+.green-section{
+    background-color: #00b172;
+    background-size: cover;
+}
+
+.greenSectionContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.green-text{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 150px;
+}
+
+.green-Logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.spotifyWhite{
+    width: 100px;
+    height: 100px;;
+}
+
+.green-Kanye{
+    width: 40%;
+    padding: 50px;
+}
+
+.kanyeImage{
+    width: 500px;
+    height: 600px;;
 }
